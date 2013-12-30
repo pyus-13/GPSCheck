@@ -101,7 +101,7 @@ public class GPSCheck extends ActionBarActivity implements LocationListener {
      *                 <li> satellites - the number of satellites used to derive the fix
      */
     @Override
-    public void onStatusChanged(String provider, int status1, Bundle extras) {
+    public void onStatusChanged(String provider, int status, Bundle extras) {
 
     }
 
