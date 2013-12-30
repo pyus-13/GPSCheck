@@ -36,7 +36,7 @@ public class GPSCheck extends ActionBarActivity implements LocationListener {
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates( LocationManager.GPS_PROVIDER,
                 3000,   // 3 sec
-                0, this);
+                10, this);
 
     }
 
