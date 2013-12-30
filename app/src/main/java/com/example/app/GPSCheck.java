@@ -74,7 +74,7 @@ public class GPSCheck extends ActionBarActivity implements LocationListener {
 
         Toast.makeText(getBaseContext(), str, Toast.LENGTH_LONG).show();
 
-        tv.append(str +"\n");
+        tv.append(str + " \n");
     }
 
     /**
